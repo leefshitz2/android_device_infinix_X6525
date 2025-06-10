@@ -1,0 +1,1 @@
+# TWRP device tree for Infinix Smart 8 (Infinix-X6525)
