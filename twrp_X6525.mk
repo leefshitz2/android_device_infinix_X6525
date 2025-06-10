@@ -15,11 +15,12 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Inherit from Infinix-X6525 device
 $(call inherit-product, device/infinix/X6525/device.mk)
 
-PRODUCT_DEVICE := Infinix-X6525
-PRODUCT_NAME := twrp_Infinix-X6525
+PRODUCT_DEVICE := X6525
+PRODUCT_NAME := twrp_X6525
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X6525
 PRODUCT_MANUFACTURER := infinix
+
 
 PRODUCT_GMS_CLIENTID_BASE := android-transsion
 
