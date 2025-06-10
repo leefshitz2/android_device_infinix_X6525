@@ -15,11 +15,12 @@ AB_OTA_POSTINSTALL_CONFIG += \
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.0-impl \
-    android.hardware.boot@1.0-service
+    android.hardware.boot@1.2-impl \
+    android.hardware.boot@1.2-service \
+    bootctrl.ums9230
 
 PRODUCT_PACKAGES += \
-    bootctrl.ums9230 \
+    bootctrl \
     libgptutils \
     libz \
     libcutils
