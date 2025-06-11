@@ -24,7 +24,8 @@ AB_OTA_PARTITIONS += \
     dtbo \
     product \
     vbmeta
-
+BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
+BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 104857600
 
 # Architecture
 TARGET_ARCH := arm64
